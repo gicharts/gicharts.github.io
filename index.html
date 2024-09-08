@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Guardium Insights charts</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/custom-style.4e187a9a.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/custom-style.4e187a9a.css">
+<link rel="modulepreload" href="./_observablehq/client.fb9b96b0.js">
+<link rel="modulepreload" href="./_observablehq/runtime.56d81cb2.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.831f6193.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import "./_observablehq/client.fb9b96b0.js";
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Guardium Insights charts</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./examples/age_of_audit_tasks">Age of audit tasks</a></li>
+    <li class="observablehq-link"><a href="./examples/connection_sql_scatterplot">User scatterplot showing number of connections and SQL</a></li>
+    <li class="observablehq-link"><a href="./examples/custom_color_donut">Failed test severity with custom color mappings</a></li>
+    <li class="observablehq-link"><a href="./examples/datamart_ingestion_90_days">Long term datamart ingestion chart</a></li>
+    <li class="observablehq-link"><a href="./examples/datamart_ingestion_bubbles">Datamart ingestion bubble per file</a></li>
+    <li class="observablehq-link"><a href="./examples/day_to_day_difference">Percentage difference between days</a></li>
+    <li class="observablehq-link"><a href="./examples/failed_login_threshold">Failed login count with visualized threshold</a></li>
+    <li class="observablehq-link"><a href="./examples/failed_test_severity_over_time">Failed test severity over time</a></li>
+    <li class="observablehq-link"><a href="./examples/histogram_sql_per_day">Histogram of SQL per day</a></li>
+    <li class="observablehq-link"><a href="./examples/hour_day_of_week_analysis">Weekday and hour analysis</a></li>
+    <li class="observablehq-link"><a href="./examples/long_term_day_hour_heatmap">Multi-week hour-date heatmap</a></li>
+    <li class="observablehq-link"><a href="./examples/map_of_connections">Map showing client connections</a></li>
+    <li class="observablehq-link"><a href="./examples/object_verb_access_bubble_chart">Object-Verb access bubble chart</a></li>
+    <li class="observablehq-link"><a href="./examples/previous_day_comparison_to_mean">Yesterday&#x27;s object access compared to mean</a></li>
+    <li class="observablehq-link"><a href="./examples/stale_users_dot_plot">Stale users - time since last login</a></li>
+    <li class="observablehq-link"><a href="./examples/three_octet_connection_analysis">Three octet connection analysis heatmap</a></li>
+    <li class="observablehq-link"><a href="./examples/top_k_users_by_connection_count">Top 10 users by connection count</a></li>
+    <li class="observablehq-link"><a href="./examples/two_line_two_axis">2 axis, 2 series chart</a></li>
+    <li class="observablehq-link"><a href="./examples/user_behavior_object_verb_execution">User audit trail - object and verb access</a></li>
+    <li class="observablehq-link"><a href="./examples/user_sql_counts_historical_distribution">Yesterday&#x27;s SQL counts per user comparison to box-plot</a></li>
+    <li class="observablehq-link"><a href="./examples/y_axis_z_score_comparison">Yesterday&#x27;s user sql count z-score</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<div class="hero">
+  <h1>Guardium Insights charts</h1>
+  A resource for understanding Guardium Insights flex-charts through examples. Copy, paste, and adjust the definitions to make them your own.
+</div>
+<div class="grid grid-cols-3">
+  <div class="card">
+        <a href="./examples/age_of_audit_tasks">
+            <h2>Age of audit tasks</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/age_of_audit_tasks.f37e78ad.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/connection_sql_scatterplot">
+            <h2>User scatterplot showing number of connections and SQL</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/connection_sql_scatterplot.dbee55fd.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/custom_color_donut">
+            <h2>Failed test severity with custom color mappings</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/custom_color_donut.d25e1094.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/datamart_ingestion_90_days">
+            <h2>Long term datamart ingestion chart</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/datamart_ingestion_90_days.46d5ac6e.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/datamart_ingestion_bubbles">
+            <h2>Datamart ingestion bubble per file</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/datamart_ingestion_bubbles.d2e61485.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/day_to_day_difference">
+            <h2>Percentage difference between days</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/day_to_day_difference.7ded5a29.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/failed_login_threshold">
+            <h2>Failed login count with visualized threshold</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/failed_login_threshold.01a42e20.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/failed_test_severity_over_time">
+            <h2>Failed test severity over time</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/failed_test_severity_over_time.2c73d81c.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/histogram_sql_per_day">
+            <h2>Histogram of SQL per day</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/histogram_sql_per_day.b6ae523c.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/hour_day_of_week_analysis">
+            <h2>Weekday and hour analysis</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/hour_day_of_week_analysis.c9564206.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/long_term_day_hour_heatmap">
+            <h2>Multi-week hour-date heatmap</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/long_term_day_hour_heatmap.76b2ad89.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/map_of_connections">
+            <h2>Map showing client connections</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/map_of_connections.35b9b922.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/object_verb_access_bubble_chart">
+            <h2>Object-Verb access bubble chart</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/object_verb_access_bubble_chart.a575279b.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/previous_day_comparison_to_mean">
+            <h2>Yesterday's object access compared to mean</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/previous_day_comparison_to_mean.e8338825.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/stale_users_dot_plot">
+            <h2>Stale users - time since last login</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/stale_users_dot_plot.d160d175.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/three_octet_connection_analysis">
+            <h2>Three octet connection analysis heatmap</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/three_octet_connection_analysis.2a73d1d0.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/top_k_users_by_connection_count">
+            <h2>Top 10 users by connection count</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/top_k_users_by_connection_count.a7f61073.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/two_line_two_axis">
+            <h2>2 axis, 2 series chart</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/two_line_two_axis.f6b8c3e8.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/user_behavior_object_verb_execution">
+            <h2>User audit trail - object and verb access</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/user_behavior_object_verb_execution.bdb75b87.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/user_sql_counts_historical_distribution">
+            <h2>Yesterday's SQL counts per user comparison to box-plot</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/user_sql_counts_historical_distribution.224c8193.png">
+        </a>
+    </div>
+<div class="card">
+        <a href="./examples/y_axis_z_score_comparison">
+            <h2>Yesterday's user sql count z-score</h2>
+            <img style="max-width: 100%; max-height: 100%" src="./_file/images/y_axis_z_score_comparison.4ca4938b.png">
+        </a>
+    </div>
+</div>
+<style>
+
+.card {
+    text-align: center;
+  }
+  
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  margin: 4rem 0 8rem;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  max-width: none;
+  font-size: 14vw;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 34em;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--theme-foreground-muted);
+}
+
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+
+</style>
+</main>
+</div>
