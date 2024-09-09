@@ -1,0 +1,249 @@
+{
+    "name": "Top 10 users by connection count",
+    "description": "Top 9 users by connection count with an entry called 'All Others' containing the number of connections made by all other users.",
+    "report_category": "Database activity",
+    "report_headers": [
+        {
+            "type": "Primary category",
+            "replace": "$primary_category",
+            "name": "DB user"
+        },
+        {
+            "type": "Primary value",
+            "replace": "$primary_measure",
+            "name": "Count"
+        }
+    ],
+    "tips": [],
+    "width": 400,
+    "height": 400,
+    "data": {
+        "values": [
+            {
+                "DB user": "RDSADMIN",
+                "Count": "3070609"
+            },
+            {
+                "DB user": "JESSICA",
+                "Count": "2274360"
+            },
+            {
+                "DB user": "APPUSER",
+                "Count": "390788"
+            },
+            {
+                "DB user": "MAURICIO",
+                "Count": "165127"
+            },
+            {
+                "DB user": "DANIEL",
+                "Count": "165123"
+            },
+            {
+                "DB user": "BADGUY",
+                "Count": "25300"
+            },
+            {
+                "DB user": "POLLY",
+                "Count": "19527"
+            },
+            {
+                "DB user": "ELLIOT",
+                "Count": "10120"
+            },
+            {
+                "DB user": "FAKEJOSH",
+                "Count": "8761"
+            },
+            {
+                "DB user": "GDM_USER",
+                "Count": "5147"
+            },
+            {
+                "DB user": "FAKEUSER",
+                "Count": "5145"
+            },
+            {
+                "DB user": "SALLY",
+                "Count": "1444"
+            },
+            {
+                "DB user": "TANSEL",
+                "Count": "1367"
+            },
+            {
+                "DB user": "DAN",
+                "Count": "1236"
+            },
+            {
+                "DB user": "POSTGRES",
+                "Count": "976"
+            },
+            {
+                "DB user": "RODRIGO",
+                "Count": "950"
+            },
+            {
+                "DB user": "JOE",
+                "Count": "855"
+            },
+            {
+                "DB user": "JOED",
+                "Count": "665"
+            },
+            {
+                "DB user": "DAVID",
+                "Count": "626"
+            },
+            {
+                "DB user": "JOSH",
+                "Count": "506"
+            },
+            {
+                "DB user": "LESLIE",
+                "Count": "506"
+            },
+            {
+                "DB user": "KEN",
+                "Count": "492"
+            },
+            {
+                "DB user": "MARILENE",
+                "Count": "416"
+            },
+            {
+                "DB user": "MATT",
+                "Count": "384"
+            },
+            {
+                "DB user": "USMAN",
+                "Count": "384"
+            },
+            {
+                "DB user": "HIGHRISK",
+                "Count": "380"
+            },
+            {
+                "DB user": "NULL",
+                "Count": "275"
+            },
+            {
+                "DB user": "RAJESH",
+                "Count": "255"
+            },
+            {
+                "DB user": "NAGENDRA",
+                "Count": "253"
+            },
+            {
+                "DB user": "PENTESTER",
+                "Count": "160"
+            },
+            {
+                "DB user": "ANDREW",
+                "Count": "135"
+            },
+            {
+                "DB user": "JOSHUA",
+                "Count": "134"
+            },
+            {
+                "DB user": "DOUGLAS",
+                "Count": "133"
+            },
+            {
+                "DB user": "ENRIQUE",
+                "Count": "131"
+            },
+            {
+                "DB user": "DON",
+                "Count": "131"
+            },
+            {
+                "DB user": "TONY",
+                "Count": "128"
+            },
+            {
+                "DB user": "DEVAN",
+                "Count": "128"
+            },
+            {
+                "DB user": "BILL",
+                "Count": "128"
+            },
+            {
+                "DB user": "RICK",
+                "Count": "127"
+            },
+            {
+                "DB user": "ROOT",
+                "Count": "80"
+            },
+            {
+                "DB user": "SYSTEM",
+                "Count": "32"
+            },
+            {
+                "DB user": "ADMIN",
+                "Count": "30"
+            },
+            {
+                "DB user": "DB2ADMIN",
+                "Count": "16"
+            },
+            {
+                "DB user": "GUARDIUM",
+                "Count": "8"
+            }
+        ]
+    },
+    "vega_def": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "Stacked bar chart",
+        "data": {
+            "name": "chartData"
+        },
+        "transform": [
+            {
+                "calculate": "toNumber(datum['$primary_measure'])",
+                "as": "num_Count"
+            },
+            {
+                "window": [
+                    {
+                        "op": "row_number",
+                        "as": "rank"
+                    }
+                ],
+                "sort": [
+                    {
+                        "field": "num_Count",
+                        "order": "descending"
+                    }
+                ]
+            },
+            {
+                "calculate": "datum.rank < 10 ? datum['$primary_category'] : 'All Others'",
+                "as": "ranked_$primary_category"
+            }
+        ],
+        "width": "container",
+        "height": "container",
+        "mark": "bar",
+        "encoding": {
+            "y": {
+                "field": "ranked_$primary_category",
+                "type": "nominal",
+                "sort": "-x"
+            },
+            "color": {
+                "field": "$primary_measure",
+                "type": "quantitative"
+            },
+            "x": {
+                "field": "$primary_measure",
+                "aggregate": "sum"
+            }
+        }
+    }
+}

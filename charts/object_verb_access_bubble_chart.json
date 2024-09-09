@@ -1,0 +1,1431 @@
+{
+    "name": "Object-Verb access bubble chart",
+    "description": "Bubble chart similar to the provided GI default, but with modifications to allow for larger bubbles and overlaps as well as a different color scale.",
+    "report_category": "Database activity",
+    "report_headers": [
+        {
+            "type": "Primary category",
+            "replace": "$primary_category",
+            "name": "Date (Period start (local time))"
+        },
+        {
+            "type": "Secondary category",
+            "replace": "$secondary_category",
+            "name": "DB user"
+        },
+        {
+            "type": "Tertiary category",
+            "replace": "$tertiary_category",
+            "name": "Verb"
+        },
+        {
+            "type": "Primary value",
+            "replace": "$primary_measure",
+            "name": "Sum (Total count)"
+        }
+    ],
+    "tips": [],
+    "width": 600,
+    "height": 400,
+    "data": {
+        "values": [
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "ANDREW",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1696"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1598"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1506"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1488"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1352"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1276"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1246"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1078"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "1028"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "804"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "784"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "774"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "756"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "750"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "744"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "738"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "736"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "706"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "682"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "654"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "650"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "648"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "598"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "574"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "542"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "522"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "518"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "512"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "510"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "500"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "456"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "448"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "434"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "434"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "ANDREW",
+                "Verb": "SELECT",
+                "Sum (Total count)": "432"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "DAVID",
+                "Verb": "DELETE",
+                "Sum (Total count)": "424"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "424"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "414"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "394"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "392"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "384"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "384"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "382"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "JOSHUA",
+                "Verb": "DELETE",
+                "Sum (Total count)": "380"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "362"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "362"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "354"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "326"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "310"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "304"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "ANDREW",
+                "Verb": "SELECT",
+                "Sum (Total count)": "288"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "282"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "270"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "262"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "248"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "246"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "DEVAN",
+                "Verb": "DELETE",
+                "Sum (Total count)": "242"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "222"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "212"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "SALLY",
+                "Verb": "DELETE",
+                "Sum (Total count)": "212"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "194"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "192"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "190"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "ANDREW",
+                "Verb": "SELECT",
+                "Sum (Total count)": "188"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "166"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "164"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "158"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "152"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DAVID",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "152"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "150"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "148"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "144"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "134"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "USMAN",
+                "Verb": "DELETE",
+                "Sum (Total count)": "130"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DON",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "126"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "MATT",
+                "Verb": "DELETE",
+                "Sum (Total count)": "122"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "114"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "110"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "108"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "TONY",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "108"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "104"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "JOSHUA",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "104"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "100"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "96"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "MATT",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "92"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "BILL",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "90"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "RICK",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "88"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "88"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "88"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "SALLY",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "84"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "80"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DEVAN",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "80"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "76"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "TONY",
+                "Verb": "DELETE",
+                "Sum (Total count)": "76"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "74"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "72"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "70"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "BILL",
+                "Verb": "DELETE",
+                "Sum (Total count)": "68"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "TANSEL",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "64"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "58"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "ANDREW",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "54"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "ENRIQUE",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "54"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "53"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "53"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "DOUGLAS",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "52"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "44"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "POLLY",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "36"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "USMAN",
+                "Verb": "UPDATE",
+                "Sum (Total count)": "30"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "TANSEL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "26"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "DAVID",
+                "Verb": "SELECT",
+                "Sum (Total count)": "26"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "22"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "22"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "22"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "22"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "21"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "19"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "16"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "14"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "MATT",
+                "Verb": "SELECT",
+                "Sum (Total count)": "12"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "DEVAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "12"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "JOSHUA",
+                "Verb": "SELECT",
+                "Sum (Total count)": "10"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "USMAN",
+                "Verb": "SELECT",
+                "Sum (Total count)": "10"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "8"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "TANSEL",
+                "Verb": "DELETE",
+                "Sum (Total count)": "8"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-18",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-01",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-07",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-08",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-02",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-22",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-14",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-29",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-10",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-04",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-27",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-15",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-13",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-23",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-26",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-25",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-12",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "POLLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-24",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-28",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-30",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-09",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-19",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "ENRIQUE",
+                "Verb": "SELECT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-06",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-05",
+                "DB user": "APPUSER",
+                "Verb": "GRANT",
+                "Sum (Total count)": "6"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "POLLY",
+                "Verb": "DELETE",
+                "Sum (Total count)": "4"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "RICK",
+                "Verb": "DELETE",
+                "Sum (Total count)": "4"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "RICK",
+                "Verb": "SELECT",
+                "Sum (Total count)": "4"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "TONY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "4"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "DOUGLAS",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-28",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-19",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-01",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-06",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-05",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-02",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-12",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "BILL",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-10",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-18",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-04",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-14",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-26",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "DON",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-27",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "ANDREW",
+                "Verb": "DELETE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-07",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "SALLY",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-09",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-13",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-15",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-23",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "ENRIQUE",
+                "Verb": "DELETE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "ANDREW",
+                "Verb": "SELECT",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-22",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-25",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-08",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-30",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-29",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-24",
+                "DB user": "APPUSER",
+                "Verb": "CREATE TABLE",
+                "Sum (Total count)": "2"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-23",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-12",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-25",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-11",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-05",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-27",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-24",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-29",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-06",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-31",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-16",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-04",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-21",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-03",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-15",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-22",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-10",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-19",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-18",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-26",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-14",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-13",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-20",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-17",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-07",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-08",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-30",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-09",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-02",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-01",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-08-28",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            },
+            {
+                "Date (Period start (local time))": "2024-09-07",
+                "DB user": "APPUSER",
+                "Verb": "COMMENT ON",
+                "Sum (Total count)": "1"
+            }
+        ]
+    },
+    "vega_def": {
+        "description": "3-Category circle",
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "data": {
+            "name": "chartData"
+        },
+        "width": "container",
+        "height": "container",
+        "mark": {
+            "type": "circle",
+            "stroke": "black",
+            "strokeWidth": 1
+        },
+        "encoding": {
+            "x": {
+                "field": "$primary_category",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "$secondary_category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "$primary_measure",
+                "aggregate": "sum",
+                "scale": {
+                    "range": [
+                        0,
+                        2000
+                    ]
+                }
+            },
+            "color": {
+                "field": "$tertiary_category",
+                "type": "nominal",
+                "scale": {
+                    "scheme": "category10"
+                }
+            }
+        }
+    }
+}

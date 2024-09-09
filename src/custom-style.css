@@ -1,0 +1,27 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-deep-space.css");
+
+:root {
+    --theme-foreground: #f4f4f4;
+    --theme-foreground-focus: #ffffff;
+    --theme-background: #262626;
+    --theme-background-alt: #393939;
+    --theme-foreground-alt: #f4f4f4;
+    --syntax-constant: #9ef0f0;
+    --syntax-string: #ff7eb6;
+    --syntax-entity-tag:#ffffff;
+    --syntax-entity-tag:#ffffff;
+    --syntax-keyword: #ffffff;
+}
+
+li > p {
+    margin: 0;
+}
+
+p {
+    max-width: 960px;
+}
+
+.tip {
+    max-width: 960px;
+}

@@ -1,0 +1,853 @@
+{
+    "name": "Percentage difference between days",
+    "description": "Shows the percentage difference in the number of connections between the two most recent full days (2 days ago compared to yesterday).",
+    "report_category": "Database activity",
+    "report_headers": [
+        {
+            "type": "Primary category",
+            "replace": "$primary_category",
+            "name": "DB user"
+        },
+        {
+            "type": "Secondary category",
+            "replace": "$secondary_category",
+            "name": "Date (Connection start (local time))"
+        },
+        {
+            "type": "Primary value",
+            "replace": "$primary_measure",
+            "name": "Count"
+        }
+    ],
+    "tips": ["You may need to change the domain for the color scale to reflect differences in your local environment better."],
+    "width": 400,
+    "height": 450,
+    "data": {
+        "values": [
+            {
+                "DB user": "RDSADMIN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "97211"
+            },
+            {
+                "DB user": "RDSADMIN",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "95987"
+            },
+            {
+                "DB user": "JESSICA",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "89692"
+            },
+            {
+                "DB user": "JESSICA",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "85649"
+            },
+            {
+                "DB user": "RDSADMIN",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "57697"
+            },
+            {
+                "DB user": "JESSICA",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "41124"
+            },
+            {
+                "DB user": "RDSADMIN",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "37448"
+            },
+            {
+                "DB user": "JESSICA",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "32389"
+            },
+            {
+                "DB user": "APPUSER",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "12345"
+            },
+            {
+                "DB user": "APPUSER",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "12343"
+            },
+            {
+                "DB user": "APPUSER",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "6719"
+            },
+            {
+                "DB user": "MAURICIO",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "6672"
+            },
+            {
+                "DB user": "DANIEL",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "6672"
+            },
+            {
+                "DB user": "MAURICIO",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "6535"
+            },
+            {
+                "DB user": "DANIEL",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "6535"
+            },
+            {
+                "DB user": "APPUSER",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "4940"
+            },
+            {
+                "DB user": "DANIEL",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "2952"
+            },
+            {
+                "DB user": "MAURICIO",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "2952"
+            },
+            {
+                "DB user": "DANIEL",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "2435"
+            },
+            {
+                "DB user": "MAURICIO",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "2434"
+            },
+            {
+                "DB user": "BADGUY",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "800"
+            },
+            {
+                "DB user": "BADGUY",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "800"
+            },
+            {
+                "DB user": "POLLY",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "614"
+            },
+            {
+                "DB user": "POLLY",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "604"
+            },
+            {
+                "DB user": "BADGUY",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "500"
+            },
+            {
+                "DB user": "POLLY",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "376"
+            },
+            {
+                "DB user": "ELLIOT",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "320"
+            },
+            {
+                "DB user": "ELLIOT",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "320"
+            },
+            {
+                "DB user": "BADGUY",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "300"
+            },
+            {
+                "DB user": "FAKEJOSH",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "279"
+            },
+            {
+                "DB user": "FAKEJOSH",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "259"
+            },
+            {
+                "DB user": "POLLY",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "228"
+            },
+            {
+                "DB user": "ELLIOT",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "200"
+            },
+            {
+                "DB user": "GDM_USER",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "163"
+            },
+            {
+                "DB user": "GDM_USER",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "163"
+            },
+            {
+                "DB user": "FAKEUSER",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "163"
+            },
+            {
+                "DB user": "FAKEJOSH",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "162"
+            },
+            {
+                "DB user": "FAKEUSER",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "162"
+            },
+            {
+                "DB user": "GDM_USER",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "158"
+            },
+            {
+                "DB user": "ELLIOT",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "120"
+            },
+            {
+                "DB user": "FAKEJOSH",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "102"
+            },
+            {
+                "DB user": "FAKEUSER",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "101"
+            },
+            {
+                "DB user": "FAKEUSER",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "59"
+            },
+            {
+                "DB user": "POSTGRES",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "46"
+            },
+            {
+                "DB user": "SALLY",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "46"
+            },
+            {
+                "DB user": "SALLY",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "46"
+            },
+            {
+                "DB user": "TANSEL",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "43"
+            },
+            {
+                "DB user": "TANSEL",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "43"
+            },
+            {
+                "DB user": "POSTGRES",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "40"
+            },
+            {
+                "DB user": "POSTGRES",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "40"
+            },
+            {
+                "DB user": "DAN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "39"
+            },
+            {
+                "DB user": "DAN",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "39"
+            },
+            {
+                "DB user": "SALLY",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "30"
+            },
+            {
+                "DB user": "RODRIGO",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "30"
+            },
+            {
+                "DB user": "RODRIGO",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "30"
+            },
+            {
+                "DB user": "TANSEL",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "28"
+            },
+            {
+                "DB user": "JOE",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "27"
+            },
+            {
+                "DB user": "JOE",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "27"
+            },
+            {
+                "DB user": "DAN",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "24"
+            },
+            {
+                "DB user": "JOED",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "21"
+            },
+            {
+                "DB user": "JOED",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "21"
+            },
+            {
+                "DB user": "RODRIGO",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "20"
+            },
+            {
+                "DB user": "DAVID",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "20"
+            },
+            {
+                "DB user": "DAVID",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "20"
+            },
+            {
+                "DB user": "JOE",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "18"
+            },
+            {
+                "DB user": "MATT",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "17"
+            },
+            {
+                "DB user": "LESLIE",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "16"
+            },
+            {
+                "DB user": "LESLIE",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "16"
+            },
+            {
+                "DB user": "JOSH",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "16"
+            },
+            {
+                "DB user": "KEN",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "16"
+            },
+            {
+                "DB user": "JOSH",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "16"
+            },
+            {
+                "DB user": "SALLY",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "16"
+            },
+            {
+                "DB user": "KEN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "16"
+            },
+            {
+                "DB user": "TANSEL",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "15"
+            },
+            {
+                "DB user": "DAN",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "15"
+            },
+            {
+                "DB user": "DAVID",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "14"
+            },
+            {
+                "DB user": "MARILENE",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "14"
+            },
+            {
+                "DB user": "JOED",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "14"
+            },
+            {
+                "DB user": "MARILENE",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "13"
+            },
+            {
+                "DB user": "USMAN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "12"
+            },
+            {
+                "DB user": "USMAN",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "12"
+            },
+            {
+                "DB user": "HIGHRISK",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "12"
+            },
+            {
+                "DB user": "MATT",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "12"
+            },
+            {
+                "DB user": "HIGHRISK",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "12"
+            },
+            {
+                "DB user": "LESLIE",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "10"
+            },
+            {
+                "DB user": "KEN",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "10"
+            },
+            {
+                "DB user": "JOSH",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "10"
+            },
+            {
+                "DB user": "RODRIGO",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "10"
+            },
+            {
+                "DB user": "MATT",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "9"
+            },
+            {
+                "DB user": "USMAN",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "9"
+            },
+            {
+                "DB user": "JOE",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "9"
+            },
+            {
+                "DB user": "NULL",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "8"
+            },
+            {
+                "DB user": "HIGHRISK",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "8"
+            },
+            {
+                "DB user": "RAJESH",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "8"
+            },
+            {
+                "DB user": "MARILENE",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "8"
+            },
+            {
+                "DB user": "NAGENDRA",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "8"
+            },
+            {
+                "DB user": "NAGENDRA",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "8"
+            },
+            {
+                "DB user": "RAJESH",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "8"
+            },
+            {
+                "DB user": "JOED",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "7"
+            },
+            {
+                "DB user": "GDM_USER",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "7"
+            },
+            {
+                "DB user": "ANDREW",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "7"
+            },
+            {
+                "DB user": "PENTESTER",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "6"
+            },
+            {
+                "DB user": "DAVID",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "6"
+            },
+            {
+                "DB user": "PENTESTER",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "6"
+            },
+            {
+                "DB user": "JOSH",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "6"
+            },
+            {
+                "DB user": "NULL",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "6"
+            },
+            {
+                "DB user": "LESLIE",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "6"
+            },
+            {
+                "DB user": "KEN",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "6"
+            },
+            {
+                "DB user": "RAJESH",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "5"
+            },
+            {
+                "DB user": "NAGENDRA",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "5"
+            },
+            {
+                "DB user": "RICK",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "ENRIQUE",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "RICK",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "ENRIQUE",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "TONY",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "DEVAN",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "DON",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "DON",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "MARILENE",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "4"
+            },
+            {
+                "DB user": "DEVAN",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "PENTESTER",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "TONY",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "JOSHUA",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "ANDREW",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "ENRIQUE",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "DOUGLAS",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "BILL",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "HIGHRISK",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "4"
+            },
+            {
+                "DB user": "DEVAN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "BILL",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "DOUGLAS",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "JOSHUA",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "ANDREW",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "4"
+            },
+            {
+                "DB user": "JOSHUA",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "BILL",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "TONY",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "DOUGLAS",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "DON",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "4"
+            },
+            {
+                "DB user": "RICK",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "4"
+            },
+            {
+                "DB user": "NAGENDRA",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "3"
+            },
+            {
+                "DB user": "MATT",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "3"
+            },
+            {
+                "DB user": "RAJESH",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "3"
+            },
+            {
+                "DB user": "ROOT",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "3"
+            },
+            {
+                "DB user": "USMAN",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "3"
+            },
+            {
+                "DB user": "ROOT",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "3"
+            },
+            {
+                "DB user": "ROOT",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "2"
+            },
+            {
+                "DB user": "DB2ADMIN",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "2"
+            },
+            {
+                "DB user": "PENTESTER",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "2"
+            },
+            {
+                "DB user": "NULL",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "1"
+            },
+            {
+                "DB user": "SYSTEM",
+                "Date (Connection start (local time))": "2024-09-06",
+                "Count": "1"
+            },
+            {
+                "DB user": "SYSTEM",
+                "Date (Connection start (local time))": "2024-09-05",
+                "Count": "1"
+            },
+            {
+                "DB user": "ROOT",
+                "Date (Connection start (local time))": "2024-09-03",
+                "Count": "1"
+            },
+            {
+                "DB user": "SYSTEM",
+                "Date (Connection start (local time))": "2024-09-04",
+                "Count": "1"
+            }
+        ]
+    },
+    "vega_def": {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "Bar chart",
+        "data": {
+          "name": "chartData"
+        },
+        "transform": [
+          {
+            "pivot": "$secondary_category",
+            "value": "$primary_measure",
+            "groupby": [
+              "$primary_category"
+            ]
+          },
+          {
+            "filter": "datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] != datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')] && isDefined(datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) && isDefined(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')])"
+          },
+          {
+            "calculate": "(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] - datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) / datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]",
+            "as": "difference"
+          }
+        ],
+        "width": "container",
+        "height": "container",
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "$primary_category",
+            "type": "nominal",
+            "axis": {
+              "labelAngle": -45
+            },
+            "sort": "-y"
+          },
+          "color": {
+            "field": "difference",
+            "type": "quantitative",
+            "scale": {
+              "scheme": "redblue",
+              "domain": [
+                -0.5,
+                0,
+                1
+              ]
+            },
+            "legend": {
+              "format": "%"
+            }
+          },
+          "y": {
+            "field": "difference",
+            "title": "Percentage increase or decrease in connections",
+            "type": "quantitative",
+            "axis": {
+              "format": "%"
+            }
+          }
+        }
+      }
+}

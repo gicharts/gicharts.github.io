@@ -1,0 +1,217 @@
+
+# Histogram of SQL per day
+A simple bar graph demonstrating binning as a method for creating a histogram. Provides a distribution of the number of SQL per day.
+- **Report category:** Database activity
+
+- **Required report headers:**
+    - **Primary category:** Date (Connection start (local time))
+    - **Primary value:** Sum (Total count)
+```js
+    import * as vega from "npm:vega";
+    import * as vegaLite from "npm:vega-lite";
+    import * as vegaLiteApi from "npm:vega-lite-api";
+
+    const vl = vegaLiteApi.register(vega, vegaLite, {theme: "dark"});
+```
+<div style="text-align: center; width: 100%; max-width: 960px; margin-bottom: 2rem">
+    <div id="vis"></div>
+</div>
+
+
+
+```js 
+    const {default: embed} = await import("npm:vega-embed@6");
+
+    embed('#vis',
+        {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar chart",
+    "data": {
+        "values": [
+            {
+                "Date (Connection start (local time))": "2024-08-30",
+                "Sum (Total count)": "1206974"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-03",
+                "Sum (Total count)": "1205468"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-01",
+                "Sum (Total count)": "1187051"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-26",
+                "Sum (Total count)": "1178110"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-12",
+                "Sum (Total count)": "1176401"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-28",
+                "Sum (Total count)": "1171692"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-08",
+                "Sum (Total count)": "1171399"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-20",
+                "Sum (Total count)": "1146991"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-05",
+                "Sum (Total count)": "1137105"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-23",
+                "Sum (Total count)": "1125497"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-19",
+                "Sum (Total count)": "1119143"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-18",
+                "Sum (Total count)": "1118884"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-06",
+                "Sum (Total count)": "1117377"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-04",
+                "Sum (Total count)": "1113121"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-14",
+                "Sum (Total count)": "1111932"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-27",
+                "Sum (Total count)": "1108840"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-29",
+                "Sum (Total count)": "1102738"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-21",
+                "Sum (Total count)": "1095304"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-25",
+                "Sum (Total count)": "1090784"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-16",
+                "Sum (Total count)": "1088039"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-15",
+                "Sum (Total count)": "1087050"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-02",
+                "Sum (Total count)": "1086542"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-09",
+                "Sum (Total count)": "1064866"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-13",
+                "Sum (Total count)": "1061102"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-11",
+                "Sum (Total count)": "1060470"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-24",
+                "Sum (Total count)": "1039396"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-10",
+                "Sum (Total count)": "1038187"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-22",
+                "Sum (Total count)": "986683"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-17",
+                "Sum (Total count)": "953266"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-31",
+                "Sum (Total count)": "948378"
+            },
+            {
+                "Date (Connection start (local time))": "2024-09-06",
+                "Sum (Total count)": "823044"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-07",
+                "Sum (Total count)": "755509"
+            },
+            {
+                "Date (Connection start (local time))": "2024-08-05",
+                "Sum (Total count)": "43845"
+            }
+        ]
+    },
+    "width": 600,
+    "height": 600,
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Sum (Total count)",
+            "bin": {
+                "maxbins": 40,
+                "nice": true,
+                "minstep": 50000
+            },
+            "title": "Number of SQL captured per day"
+        },
+        "y": {
+            "aggregate": "count",
+            "title": "Number of days"
+        }
+    }
+}
+    ,
+        {"theme": "carbong90"}
+    )
+```
+
+## GI chart code definition
+```json
+    {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar chart",
+    "data": {
+        "name": "chartData"
+    },
+    "width": "container",
+    "height": "container",
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "$primary_measure",
+            "bin": {
+                "maxbins": 40,
+                "nice": true,
+                "minstep": 50000
+            },
+            "title": "Number of SQL captured per day"
+        },
+        "y": {
+            "aggregate": "count",
+            "title": "Number of days"
+        }
+    }
+}
+```
+

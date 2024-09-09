@@ -1,0 +1,337 @@
+{
+    "name": "Stale users - time since last login",
+    "description": "A dot plot showing the number of days since last login per user. User defined here as the username concatenated with the server hostname.",
+    "report_category": "Database activity",
+    "report_headers": [
+        {
+            "type": "Primary category",
+            "replace": "$primary_category",
+            "name": "Server hostname"
+        },
+        {
+            "type": "Secondary category",
+            "replace": "$secondary_category",
+            "name": "DB user"
+        },
+        {
+            "type": "Tertiary category",
+            "replace": "$tertiary_category",
+            "name": "Max (Connection start (local time))"
+        },
+        {
+            "type": "Primary value",
+            "replace": "$primary_measure",
+            "name": "Count"
+        }
+    ],
+    "tips": [
+        "Filter the base report for this chart to include only successful logins to avoid failed logins tainting the results."
+    ],
+    "width": 400,
+    "height": 400,
+    "data": {
+        "values": [
+            {
+                "Server hostname": "AURORA-MYSQL01-INSTANCE-1",
+                "DB user": "RDSADMIN",
+                "Max (Connection start (local time))": "2024-09-08 13:54:47.045518",
+                "Count": "3070609"
+            },
+            {
+                "Server hostname": "OSPREY.GDEMO.COM",
+                "DB user": "JESSICA",
+                "Max (Connection start (local time))": "2024-09-08 14:04:59.0",
+                "Count": "2268840"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "APPUSER",
+                "Max (Connection start (local time))": "2024-09-08 14:03:27.0",
+                "Count": "390788"
+            },
+            {
+                "Server hostname": "OSPREY.GDEMO.COM",
+                "DB user": "DANIEL",
+                "Max (Connection start (local time))": "2024-09-08 14:04:59.0",
+                "Count": "164323"
+            },
+            {
+                "Server hostname": "OSPREY.GDEMO.COM",
+                "DB user": "MAURICIO",
+                "Max (Connection start (local time))": "2024-09-08 14:04:59.0",
+                "Count": "164323"
+            },
+            {
+                "Server hostname": "AURORA-MYSQL01-INSTANCE-1",
+                "DB user": "POLLY",
+                "Max (Connection start (local time))": "2024-09-08 13:01:24.472514",
+                "Count": "8787"
+            },
+            {
+                "Server hostname": "AURORA-MYSQL01-INSTANCE-1",
+                "DB user": "FAKEJOSH",
+                "Max (Connection start (local time))": "2024-09-08 13:01:24.285084",
+                "Count": "8761"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "JESSICA",
+                "Max (Connection start (local time))": "2024-09-08 12:01:32.0",
+                "Count": "5120"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "GDM_USER",
+                "Max (Connection start (local time))": "2024-09-08 00:21:54.0",
+                "Count": "5088"
+            },
+            {
+                "Server hostname": "TZ-AWS-POC3_PGSALESDB",
+                "DB user": "POSTGRES",
+                "Max (Connection start (local time))": "2024-09-06 00:08:54.0",
+                "Count": "976"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "RODRIGO",
+                "Max (Connection start (local time))": "2024-09-08 00:50:50.0",
+                "Count": "950"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "JOE",
+                "Max (Connection start (local time))": "2024-09-08 00:50:46.0",
+                "Count": "855"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "JOED",
+                "Max (Connection start (local time))": "2024-09-08 00:50:48.0",
+                "Count": "665"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "MAURICIO",
+                "Max (Connection start (local time))": "2024-09-08 12:00:47.0",
+                "Count": "564"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "DANIEL",
+                "Max (Connection start (local time))": "2024-09-08 12:00:44.0",
+                "Count": "560"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "HIGHRISK",
+                "Max (Connection start (local time))": "2024-09-08 00:50:53.0",
+                "Count": "380"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "PENTESTER",
+                "Max (Connection start (local time))": "2024-09-08 12:01:32.0",
+                "Count": "160"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "ANDREW",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "135"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "DAVID",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "134"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "JOSHUA",
+                "Max (Connection start (local time))": "2024-09-08 07:54:07.0",
+                "Count": "134"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "DOUGLAS",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "133"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "USMAN",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "131"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "ENRIQUE",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "131"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "MATT",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "131"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "TANSEL",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "131"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "DON",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "131"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "DEVAN",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "128"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "TONY",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "128"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "POLLY",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "128"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "SALLY",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "128"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "BILL",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "128"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "RICK",
+                "Max (Connection start (local time))": "2024-09-08 00:00:16.0",
+                "Count": "127"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "FAKEUSER",
+                "Max (Connection start (local time))": "2024-09-07 09:20:01.0",
+                "Count": "109"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "ROOT",
+                "Max (Connection start (local time))": "2024-09-08 12:00:01.0",
+                "Count": "80"
+            },
+            {
+                "Server hostname": "192.168.252.229",
+                "DB user": "GDM_USER",
+                "Max (Connection start (local time))": "2024-09-07 23:28:52.0",
+                "Count": "40"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "SYSTEM",
+                "Max (Connection start (local time))": "2024-09-08 00:00:01.0",
+                "Count": "32"
+            },
+            {
+                "Server hostname": "AURORA-MYSQL01-INSTANCE-1",
+                "DB user": "ADMIN",
+                "Max (Connection start (local time))": "2024-08-22 23:31:04.578643",
+                "Count": "30"
+            },
+            {
+                "Server hostname": "192.168.252.239",
+                "DB user": "GDM_USER",
+                "Max (Connection start (local time))": "2024-09-04 23:59:02.0",
+                "Count": "19"
+            },
+            {
+                "Server hostname": "SNOWGOOSE.GDEMO.COM",
+                "DB user": "GUARDIUM",
+                "Max (Connection start (local time))": "2024-08-24 12:38:51.0",
+                "Count": "8"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "MARILENE",
+                "Max (Connection start (local time))": "2024-09-05 20:32:02.0",
+                "Count": "7"
+            },
+            {
+                "Server hostname": "RAPTOR.GDEMO.COM",
+                "DB user": "RAJESH",
+                "Max (Connection start (local time))": "2024-09-07 06:20:02.0",
+                "Count": "3"
+            }
+        ]
+    },
+    "vega_def": {
+        "description": "3-Category circle",
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "data": {
+            "name": "chartData"
+        },
+        "transform": [
+            {
+                "calculate": "datum['$primary_category'] + '::' + datum['$secondary_category']",
+                "as": "serveruser"
+            },
+            {
+                "calculate": "floor((now() - toDate(datum['$tertiary_category'])) / (1000 * 60 * 60 * 24))",
+                "as": "days_old"
+            }
+        ],
+        "title": "Chart showing the last time a user accessed a database",
+        "width": "container",
+        "height": "container",
+        "mark": {
+            "type": "circle",
+            "size": 80
+        },
+        "encoding": {
+            "y": {
+                "field": "serveruser",
+                "type": "nominal",
+                "axis": {
+                    "grid": false,
+                    "labelLimit": false,
+                    "labelFontSize": 10
+                },
+                "title": false,
+                "sort": "x"
+            },
+            "x": {
+                "field": "$tertiary_category",
+                "type": "temporal",
+                "axis": {
+                    "grid": false
+                },
+                "scale": {
+                    "padding": 10
+                }
+            },
+            "color": {
+                "field": "days_old",
+                "type": "quantitative",
+                "scale": {
+                    "scheme": "purplered"
+                },
+                "title": "Days since last connection"
+            }
+        }
+    }
+}
