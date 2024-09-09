@@ -1,6 +1,6 @@
 
 # 2 axis, 2 series chart
-Chart with two layers containing line charts with differing y-axis scales. Useful if the domain of the charts differ from eachother by a large amount.
+Chart with two layers containing line charts with differing y-axis scales. Useful if the domain of the charts differ from each other by a large amount.
 - **Report category:** Database activity
 
 - **Required report headers:**

@@ -1,7 +1,7 @@
 
 # Failed test severity over time
 A normalized area graph showing the severity of failed vulnerability assessment tests over time.
-- **Report category:** Vulnerability assesments
+- **Report category:** Vulnerability assessments
 
 - **Required report headers:**
     - **Primary category:** Severity

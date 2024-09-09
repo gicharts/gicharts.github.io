@@ -1,6 +1,6 @@
 
 # Yesterday's SQL counts per user comparison to box-plot
-Yesterday's number of SQL executed per user (red dots) compared to their historical distribution of access as represeneted by a box plot. 
+Yesterday's number of SQL executed per user (red dots) compared to their historical distribution of access as represented by a box plot. 
 - **Report category:** Database activity
 
 - **Required report headers:**
