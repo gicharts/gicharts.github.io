@@ -4397,7 +4397,7 @@ Yesterday's number of SQL executed per user (red dots) compared to their histori
         {
             "transform": [
                 {
-                    "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')"
+                    "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', toDate('2024-09-08'), -1), '%Y-%m-%d')"
                 }
             ],
             "mark": {

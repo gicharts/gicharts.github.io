@@ -192,7 +192,7 @@ Chart with two layers containing line charts with differing y-axis scales. Usefu
         ]
     },
     "width": 620,
-    "height": 620,
+    "height": 400,
     "resolve": {
         "scale": {
             "y": "independent"

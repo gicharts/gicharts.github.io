@@ -76,7 +76,7 @@ const [vega, vegaLite, vegaLiteApi] = await Promise.all([import("../_npm/vega@5.
 return {vega,vegaLite,vegaLiteApi,vl};
 }});
 
-define({id: "8f52e2d6", outputs: ["embed"], body: async () => {
+define({id: "a257482a", outputs: ["embed"], body: async () => {
     const {default: embed} = await import("../_npm/vega-embed@6.26.0/9c760638.js");
 
     embed('#vis',
@@ -339,7 +339,7 @@ define({id: "8f52e2d6", outputs: ["embed"], body: async () => {
             "as": "serveruser"
         },
         {
-            "calculate": "floor((now() - toDate(datum['Max (Connection start (local time))'])) / (1000 * 60 * 60 * 24))",
+            "calculate": "floor((toDate('2024-09-09') - toDate(datum['Max (Connection start (local time))'])) / (1000 * 60 * 60 * 24))",
             "as": "days_old"
         }
     ],
@@ -452,7 +452,7 @@ return {embed};
     <div id="vis"></div>
 </div>
 <div class="tip">Filter the base report for this chart to include only successful logins to avoid failed logins tainting the results.</div>
-<div class="observablehq observablehq--block"><!--:8f52e2d6:--></div>
+<div class="observablehq observablehq--block"><!--:a257482a:--></div>
 <h2 id="gi-chart-code-definition" tabindex="-1"><a class="observablehq-header-anchor" href="#gi-chart-code-definition">GI chart code definition</a></h2>
 <pre data-language="json"><code class="language-json">    <span class="hljs-punctuation">{</span>
     <span class="hljs-attr">"description"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"3-Category circle"</span><span class="hljs-punctuation">,</span>

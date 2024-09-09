@@ -17,6 +17,12 @@
             "type": "Primary value",
             "replace": "$primary_measure",
             "name": "Count"
+        },
+        {
+            "type": "",
+            "replace": "now()",
+            "name": "toDate('2024-09-07')",
+            "hidden": true
         }
     ],
     "tips": ["You may need to change the domain for the color scale to reflect differences in your local environment better."],

@@ -163,7 +163,7 @@ A simple bar graph demonstrating binning as a method for creating a histogram. P
         ]
     },
     "width": 600,
-    "height": 600,
+    "height": 400,
     "mark": "bar",
     "encoding": {
         "x": {

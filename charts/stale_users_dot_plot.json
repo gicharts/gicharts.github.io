@@ -22,6 +22,12 @@
             "type": "Primary value",
             "replace": "$primary_measure",
             "name": "Count"
+        },
+        {
+            "type": "",
+            "replace": "now()",
+            "name": "toDate('2024-09-09')",
+            "hidden": true
         }
     ],
     "tips": [

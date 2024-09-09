@@ -76,7 +76,7 @@ const [vega, vegaLite, vegaLiteApi] = await Promise.all([import("../_npm/vega@5.
 return {vega,vegaLite,vegaLiteApi,vl};
 }});
 
-define({id: "ca259eb4", outputs: ["embed"], body: async () => {
+define({id: "d2a29785", outputs: ["embed"], body: async () => {
     const {default: embed} = await import("../_npm/vega-embed@6.26.0/9c760638.js");
 
     embed('#vis',
@@ -861,10 +861,10 @@ define({id: "ca259eb4", outputs: ["embed"], body: async () => {
             ]
         },
         {
-            "filter": "datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] != datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')] && isDefined(datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) && isDefined(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')])"
+            "filter": "datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')] != datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')] && isDefined(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]) && isDefined(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')])"
         },
         {
-            "calculate": "(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] - datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) / datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]",
+            "calculate": "(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')] - datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]) / datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]",
             "as": "difference"
         }
     ],
@@ -974,7 +974,7 @@ return {embed};
     <div id="vis"></div>
 </div>
 <div class="tip">You may need to change the domain for the color scale to reflect differences in your local environment better.</div>
-<div class="observablehq observablehq--block"><!--:ca259eb4:--></div>
+<div class="observablehq observablehq--block"><!--:d2a29785:--></div>
 <h2 id="gi-chart-code-definition" tabindex="-1"><a class="observablehq-header-anchor" href="#gi-chart-code-definition">GI chart code definition</a></h2>
 <pre data-language="json"><code class="language-json">    <span class="hljs-punctuation">{</span>
     <span class="hljs-attr">"$schema"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"https://vega.github.io/schema/vega-lite/v5.json"</span><span class="hljs-punctuation">,</span>

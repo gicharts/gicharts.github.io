@@ -4387,7 +4387,7 @@ A chart with z-scores on the y-axis to help emphasize deviation from mean rather
             ]
         },
         {
-            "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')"
+            "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', toDate('2024-09-08'), -1), '%Y-%m-%d')"
         },
         {
             "calculate": "(datum['Sum (Total count)'] - datum['Average execution per day']) / datum['Std. deviation']",
@@ -4395,7 +4395,7 @@ A chart with z-scores on the y-axis to help emphasize deviation from mean rather
         }
     ],
     "width": 600,
-    "height": 500,
+    "height": 350,
     "layer": [
         {
             "mark": {

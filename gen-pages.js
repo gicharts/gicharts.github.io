@@ -20,7 +20,7 @@ ${def.description}
 - **Report category:** ${def.report_category}
 
 - **Required report headers:**
-${def.report_headers.map( h => "    - **" + h.type + ":** " + h.name + "").join("\n")}
+${def.report_headers.filter(h => !h.hidden).map( h => "    - **" + h.type + ":** " + h.name + "").join("\n")}
 \`\`\`js
     import * as vega from "npm:vega";
     import * as vegaLite from "npm:vega-lite";

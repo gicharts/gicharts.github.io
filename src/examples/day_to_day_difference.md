@@ -805,10 +805,10 @@ Shows the percentage difference in the number of connections between the two mos
             ]
         },
         {
-            "filter": "datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] != datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')] && isDefined(datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) && isDefined(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')])"
+            "filter": "datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')] != datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')] && isDefined(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]) && isDefined(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')])"
         },
         {
-            "calculate": "(datum[timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')] - datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]) / datum[timeFormat(timeOffset('day', now(), -2), '%Y-%m-%d')]",
+            "calculate": "(datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -1), '%Y-%m-%d')] - datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]) / datum[timeFormat(timeOffset('day', toDate('2024-09-07'), -2), '%Y-%m-%d')]",
             "as": "difference"
         }
     ],

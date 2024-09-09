@@ -17,11 +17,17 @@
             "type": "Primary value",
             "replace": "$primary_measure",
             "name": "Sum (Total count)"
+        },
+        {
+            "type": "",
+            "replace": "now()",
+            "name": "toDate('2024-09-08')",
+            "hidden": true
         }
     ],
     "tips": [],
     "width": 600,
-    "height": 500,
+    "height": 350,
     "data": {
         "values": [
             {

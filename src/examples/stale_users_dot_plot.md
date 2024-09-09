@@ -284,7 +284,7 @@ A dot plot showing the number of days since last login per user. User defined he
             "as": "serveruser"
         },
         {
-            "calculate": "floor((now() - toDate(datum['Max (Connection start (local time))'])) / (1000 * 60 * 60 * 24))",
+            "calculate": "floor((toDate('2024-09-09') - toDate(datum['Max (Connection start (local time))'])) / (1000 * 60 * 60 * 24))",
             "as": "days_old"
         }
     ],

@@ -2693,7 +2693,7 @@ A normalized area graph showing the severity of failed vulnerability assessment 
     },
     "title": "Percentage of VA test failures by severity over time",
     "width": 600,
-    "height": 550,
+    "height": 300,
     "mark": {
         "type": "area"
     },

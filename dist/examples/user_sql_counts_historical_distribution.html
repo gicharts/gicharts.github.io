@@ -76,7 +76,7 @@ const [vega, vegaLite, vegaLiteApi] = await Promise.all([import("../_npm/vega@5.
 return {vega,vegaLite,vegaLiteApi,vl};
 }});
 
-define({id: "e370a4c8", outputs: ["embed"], body: async () => {
+define({id: "ab7d1a42", outputs: ["embed"], body: async () => {
     const {default: embed} = await import("../_npm/vega-embed@6.26.0/9c760638.js");
 
     embed('#vis',
@@ -4453,7 +4453,7 @@ define({id: "e370a4c8", outputs: ["embed"], body: async () => {
         {
             "transform": [
                 {
-                    "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')"
+                    "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', toDate('2024-09-08'), -1), '%Y-%m-%d')"
                 }
             ],
             "mark": {
@@ -4542,7 +4542,7 @@ return {embed};
 <div style="text-align: center; width: 100%; max-width: 960px; margin-bottom: 2rem">
     <div id="vis"></div>
 </div>
-<div class="observablehq observablehq--block"><!--:e370a4c8:--></div>
+<div class="observablehq observablehq--block"><!--:ab7d1a42:--></div>
 <h2 id="gi-chart-code-definition" tabindex="-1"><a class="observablehq-header-anchor" href="#gi-chart-code-definition">GI chart code definition</a></h2>
 <pre data-language="json"><code class="language-json">    <span class="hljs-punctuation">{</span>
     <span class="hljs-attr">"$schema"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"https://vega.github.io/schema/vega-lite/v5.json"</span><span class="hljs-punctuation">,</span>

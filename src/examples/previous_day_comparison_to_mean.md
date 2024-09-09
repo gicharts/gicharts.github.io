@@ -25062,7 +25062,7 @@ A chart showing yesterday's access for monitored SQL objects (bars) and comparin
             ]
         },
         {
-            "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', now(), -1), '%Y-%m-%d')"
+            "filter": "datum['Date (Period start (local time))'] == timeFormat(timeOffset('day', toDate('2024-09-08'), -1), '%Y-%m-%d')"
         },
         {
             "calculate": "(datum['Sum (Total count)'] - datum['Average execution per day']) / datum['Std. deviation']",

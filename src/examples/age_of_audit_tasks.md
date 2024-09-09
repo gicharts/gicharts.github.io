@@ -5005,7 +5005,7 @@ A bar graph calculating whether an audit task is opened and the age of the audit
             "filter": "!datum.COMPLETE"
         },
         {
-            "calculate": "floor((now() - toDate(datum['Min (Date updated (local time))'])) / (1000 * 60 * 60 * 24))",
+            "calculate": "floor((toDate('2024-08-20') - toDate(datum['Min (Date updated (local time))'])) / (1000 * 60 * 60 * 24))",
             "as": "age_days"
         }
     ],
