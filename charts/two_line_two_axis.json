@@ -1,6 +1,6 @@
 {
     "name": "2 axis, 2 series chart",
-    "description": "Chart with two layers containing line charts with differing y-axis scales. Useful if the domain of the charts differ from eachother by a large amount.",
+    "description": "Chart with two layers containing line charts with differing y-axis scales. Useful if the domain of the charts differ from each other by a large amount.",
     "report_category": "Database activity",
     "report_headers": [
         {

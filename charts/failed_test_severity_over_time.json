@@ -1,7 +1,7 @@
 {
     "name": "Failed test severity over time",
     "description": "A normalized area graph showing the severity of failed vulnerability assessment tests over time.",
-    "report_category": "Vulnerability assesments",
+    "report_category": "Vulnerability assessments",
     "report_headers": [
         {
             "type": "Primary category",

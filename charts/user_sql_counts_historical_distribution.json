@@ -1,6 +1,6 @@
 {
     "name": "Yesterday's SQL counts per user comparison to box-plot",
-    "description": "Yesterday's number of SQL executed per user (red dots) compared to their historical distribution of access as represeneted by a box plot. ",
+    "description": "Yesterday's number of SQL executed per user (red dots) compared to their historical distribution of access as represented by a box plot. ",
     "report_category": "Database activity",
     "report_headers": [
         {

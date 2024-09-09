@@ -4,7 +4,8 @@ toc: false
 
 <div class="hero">
   <h1>Guardium Insights charts</h1>
-  A resource for understanding Guardium Insights flex-charts through examples. Copy, paste, and adjust the definitions to make them your own.
+  <p>A resource for Guardium Insights charts examples. Copy and adjust the definitions to make them your own.
+  This is a Guardium community project. To contribute an example, see the <a href="https://github.com/gicharts/gicharts.github.io/blob/main/CONTRIBUTING.md">contributing page</a> on the github repository.</p>
 </div>
 
 <div class="grid grid-cols-3">
