@@ -6,7 +6,7 @@ This is an [Observable Framework](https://observablehq.com/framework) project. T
 npm run dev
 ```
 
-Most often your should update the /charts directory and then run "node en-pages.js" in order to take those definitions and automatically
+Most often your should update the /charts directory and then run "node gen-pages.js" in order to take those definitions and automatically
 create the required Observable Framework markdown and other resources.
 
 **`src`** - This is the “source root” — where your source files live. Pages go here. Each page is a Markdown file. Observable Framework uses [file-based routing](https://observablehq.com/framework/routing), which means that the name of the file controls where the page is served. You can create as many pages as you like. Use folders to organize your pages.
